@@ -10,7 +10,7 @@ A dummy portfolio page for HTML&CSS and UI Design classes at Business College He
 
 ## Screenshot
 
-!(/images/portfolio_screenshot.png?raw=true "Screenshot")
+![Screenshot](/images/portfolio_screenshot.png?raw=true "Screenshot")
 
 ## Author
 
