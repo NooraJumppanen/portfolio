@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio for Noora Jumppanen, a Finnish UI/UX Designer and Web Developer">
+    <meta name="author" content="Noora Jumppanen">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/favicon.ico">
+    <script src="https://kit.fontawesome.com/b46bc8e177.js" crossorigin="anonymous"></script>
+    <title>Noora Jumppanen</title>
+</head>
+<body>
+    <button id="myBtn" title="Go to top"><i class="fas fa-arrow-circle-up"></i></button>
+
+<header class="homeheader">
+    <div class="container"> 
+        <img id="logo" src="images/NJ_logo_black_transparent.svg" alt="logo">
+        <nav class="topnav">
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact me</a></li>
+            <li><a href="/gallery.html">Gallery</a></li>
+        </ul>
+            <a href="javascript:void(0);" class="icon"><i class="fas fa-bars"></i></a>
+        </nav>
+    </div>
+        <div class="herobanner">
+            <h1 class="h1">Welcome to my Portfolio</h1>
+        </div>
+</header>
+
+<main>
+<div id="projects">
+    <h2>Projects</h2>
+    <div class="cardcontainer">
+    <section class="card">
+        <img src="images/projects.jpeg" alt="Projects">
+        <h3>This is a heading</h3>
+        <p>And here is some text...</p>
+        <a href="#">Read more</a>
+    </section>
+    <section class="card">
+        <img src="images/projects.jpeg" alt="Projects">
+        <h3>This is a heading</h3>
+        <p>And here is some text...</p>
+        <a href="#">Read more</a>
+    </section>
+    <section class="card">
+        <img src="images/projects.jpeg" alt="Projects">
+        <h3>This is a heading</h3>
+        <p>And here is some text...</p>
+        <a href="#">Read more</a>
+    </section>
+    </div>
+</div>
+<div id="about">
+    <h2>About me</h2>
+    <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80" alt="Me">
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis odio unde eaque ullam, repellat explicabo qui quis quod suscipit rem in? Recusandae veniam id, ipsam totam voluptatum cum sunt mollitia perspiciatis voluptate expedita, soluta numquam quasi aliquam veritatis facilis impedit fuga, quisquam neque? Nesciunt molestias maiores consectetur saepe error accusantium inventore odio numquam magni reprehenderit, explicabo doloribus amet eos architecto laborum, aut pariatur iure fugiat, accusamus reiciendis minima.</p>
+</div>
+<div id="skills">
+    <h2>Skills</h2>
+    <div class="skillcontainer">
+        <div class="skillbox">
+        <i class="fab fa-html5"></i>
+        <p>HTML</p>
+        <progress value="75" max="100"></progress>
+        </div>
+        <div class="skillbox">
+        <i class="fab fa-css3-alt"></i>
+        <p>CSS</p>
+        <progress value="50" max="100"></progress>
+        </div>
+        <div class="skillbox">
+        <i class="fab fa-js-square"></i>
+        <p>JavaScript</p>
+        <progress value="30" max="100"></progress>
+        </div>
+        <div class="skillbox">
+        <i class="fab fa-react"></i>
+        <p>React</p>
+        <progress value="20" max="100"></progress>
+    </div>
+    </div>
+</div>
+</main>
+
+<footer>
+    <div id="contact">
+    <h2 class="whiteText">Contact Me</h2>
+    <form method= "POST" action="#">
+        <label for="name">Your name</label>
+        <input type="text" id="name"/>
+        <label for="email">Your email</label>
+        <input type="email" id="email"/>
+        <label for="message">Your message</label>
+       <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" />
+        </form>
+    </div>
+   <p class="whiteText">&copy; Noora Jumppanen 2021</p> 
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
